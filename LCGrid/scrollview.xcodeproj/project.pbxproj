@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B406AC51867DF700071C1D5 /* gridBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B406AC41867DF700071C1D5 /* gridBG.png */; };
+		4B406ACF1867E4660071C1D5 /* digg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B406ACE1867E4650071C1D5 /* digg.png */; };
+		4B406AD5186821D20071C1D5 /* evernote.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B406AD4186821D10071C1D5 /* evernote.png */; };
+		4B406AD7186822510071C1D5 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B406AD6186822510071C1D5 /* 123.png */; };
+		4B406AE1186836DD0071C1D5 /* LCGridData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B406ADC186836DC0071C1D5 /* LCGridData.m */; };
+		4B406AE2186836DD0071C1D5 /* LCGridElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B406ADE186836DD0071C1D5 /* LCGridElement.m */; };
+		4B406AE3186836DD0071C1D5 /* LCGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B406AE0186836DD0071C1D5 /* LCGridView.m */; };
+		4B406AE51868490E0071C1D5 /* Sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B406AE41868490E0071C1D5 /* Sky.jpg */; };
+		4BA829E6184D006C0099E41C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA829E5184D006C0099E41C /* UIKit.framework */; };
+		4BA829E8184D006C0099E41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA829E7184D006C0099E41C /* Foundation.framework */; };
+		4BA829EA184D006C0099E41C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA829E9184D006C0099E41C /* CoreGraphics.framework */; };
+		4BA829F0184D006C0099E41C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BA829EE184D006C0099E41C /* InfoPlist.strings */; };
+		4BA829F2184D006C0099E41C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA829F1184D006C0099E41C /* main.m */; };
+		4BA829F6184D006C0099E41C /* SrollViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA829F5184D006C0099E41C /* SrollViewAppDelegate.m */; };
+		4BA829F8184D006C0099E41C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA829F7184D006C0099E41C /* Default.png */; };
+		4BA829FA184D006C0099E41C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA829F9184D006C0099E41C /* Default@2x.png */; };
+		4BA829FC184D006C0099E41C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA829FB184D006C0099E41C /* Default-568h@2x.png */; };
+		4BA82A04184D00FD0099E41C /* SrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA82A03184D00FD0099E41C /* SrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B406AC41867DF700071C1D5 /* gridBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gridBG.png; path = ../gridBG.png; sourceTree = "<group>"; };
+		4B406ACE1867E4650071C1D5 /* digg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = digg.png; path = ../digg.png; sourceTree = "<group>"; };
+		4B406AD4186821D10071C1D5 /* evernote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = evernote.png; path = ../evernote.png; sourceTree = "<group>"; };
+		4B406AD6186822510071C1D5 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 123.png; path = ../123.png; sourceTree = "<group>"; };
+		4B406ADB186836DC0071C1D5 /* LCGridData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCGridData.h; sourceTree = "<group>"; };
+		4B406ADC186836DC0071C1D5 /* LCGridData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCGridData.m; sourceTree = "<group>"; };
+		4B406ADD186836DC0071C1D5 /* LCGridElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCGridElement.h; sourceTree = "<group>"; };
+		4B406ADE186836DD0071C1D5 /* LCGridElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCGridElement.m; sourceTree = "<group>"; };
+		4B406ADF186836DD0071C1D5 /* LCGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCGridView.h; sourceTree = "<group>"; };
+		4B406AE0186836DD0071C1D5 /* LCGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCGridView.m; sourceTree = "<group>"; };
+		4B406AE41868490E0071C1D5 /* Sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sky.jpg; sourceTree = "<group>"; };
+		4BA829E2184D006C0099E41C /* scrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA829E5184D006C0099E41C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BA829E7184D006C0099E41C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BA829E9184D006C0099E41C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BA829ED184D006C0099E41C /* scrollview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollview-Info.plist"; sourceTree = "<group>"; };
+		4BA829EF184D006C0099E41C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BA829F1184D006C0099E41C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BA829F3184D006C0099E41C /* scrollview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrollview-Prefix.pch"; sourceTree = "<group>"; };
+		4BA829F4184D006C0099E41C /* SrollViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SrollViewAppDelegate.h; sourceTree = "<group>"; };
+		4BA829F5184D006C0099E41C /* SrollViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SrollViewAppDelegate.m; sourceTree = "<group>"; };
+		4BA829F7184D006C0099E41C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4BA829F9184D006C0099E41C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4BA829FB184D006C0099E41C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4BA82A02184D00FD0099E41C /* SrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrollViewController.h; sourceTree = "<group>"; };
+		4BA82A03184D00FD0099E41C /* SrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BA829DF184D006C0099E41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA829E6184D006C0099E41C /* UIKit.framework in Frameworks */,
+				4BA829E8184D006C0099E41C /* Foundation.framework in Frameworks */,
+				4BA829EA184D006C0099E41C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B406ADA186836DC0071C1D5 /* LCGrid */ = {
+			isa = PBXGroup;
+			children = (
+				4B406ADF186836DD0071C1D5 /* LCGridView.h */,
+				4B406AE0186836DD0071C1D5 /* LCGridView.m */,
+				4B406ADD186836DC0071C1D5 /* LCGridElement.h */,
+				4B406ADE186836DD0071C1D5 /* LCGridElement.m */,
+				4B406ADB186836DC0071C1D5 /* LCGridData.h */,
+				4B406ADC186836DC0071C1D5 /* LCGridData.m */,
+			);
+			path = LCGrid;
+			sourceTree = "<group>";
+		};
+		4BA829D9184D006C0099E41C = {
+			isa = PBXGroup;
+			children = (
+				4BA829EB184D006C0099E41C /* scrollview */,
+				4BA829E4184D006C0099E41C /* Frameworks */,
+				4BA829E3184D006C0099E41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BA829E3184D006C0099E41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BA829E2184D006C0099E41C /* scrollview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA829E4184D006C0099E41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA829E5184D006C0099E41C /* UIKit.framework */,
+				4BA829E7184D006C0099E41C /* Foundation.framework */,
+				4BA829E9184D006C0099E41C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BA829EB184D006C0099E41C /* scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				4BA829F4184D006C0099E41C /* SrollViewAppDelegate.h */,
+				4BA829F5184D006C0099E41C /* SrollViewAppDelegate.m */,
+				4BA82A02184D00FD0099E41C /* SrollViewController.h */,
+				4BA82A03184D00FD0099E41C /* SrollViewController.m */,
+				4B406ADA186836DC0071C1D5 /* LCGrid */,
+				4BA82A0D184DC8660099E41C /* image */,
+				4BA829EC184D006C0099E41C /* Supporting Files */,
+			);
+			path = scrollview;
+			sourceTree = "<group>";
+		};
+		4BA829EC184D006C0099E41C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BA829ED184D006C0099E41C /* scrollview-Info.plist */,
+				4BA829EE184D006C0099E41C /* InfoPlist.strings */,
+				4BA829F1184D006C0099E41C /* main.m */,
+				4BA829F3184D006C0099E41C /* scrollview-Prefix.pch */,
+				4BA829F7184D006C0099E41C /* Default.png */,
+				4BA829F9184D006C0099E41C /* Default@2x.png */,
+				4BA829FB184D006C0099E41C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BA82A0D184DC8660099E41C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4B406AC41867DF700071C1D5 /* gridBG.png */,
+				4B406ACE1867E4650071C1D5 /* digg.png */,
+				4B406AE41868490E0071C1D5 /* Sky.jpg */,
+				4B406AD6186822510071C1D5 /* 123.png */,
+				4B406AD4186821D10071C1D5 /* evernote.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA829E1184D006C0099E41C /* scrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA829FF184D006C0099E41C /* Build configuration list for PBXNativeTarget "scrollview" */;
+			buildPhases = (
+				4BA829DE184D006C0099E41C /* Sources */,
+				4BA829DF184D006C0099E41C /* Frameworks */,
+				4BA829E0184D006C0099E41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollview;
+			productName = scrollview;
+			productReference = 4BA829E2184D006C0099E41C /* scrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BA829DA184D006C0099E41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SrollView;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lc;
+			};
+			buildConfigurationList = 4BA829DD184D006C0099E41C /* Build configuration list for PBXProject "scrollview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BA829D9184D006C0099E41C;
+			productRefGroup = 4BA829E3184D006C0099E41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA829E1184D006C0099E41C /* scrollview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA829E0184D006C0099E41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA829F0184D006C0099E41C /* InfoPlist.strings in Resources */,
+				4BA829F8184D006C0099E41C /* Default.png in Resources */,
+				4BA829FA184D006C0099E41C /* Default@2x.png in Resources */,
+				4BA829FC184D006C0099E41C /* Default-568h@2x.png in Resources */,
+				4B406AC51867DF700071C1D5 /* gridBG.png in Resources */,
+				4B406ACF1867E4660071C1D5 /* digg.png in Resources */,
+				4B406AD5186821D20071C1D5 /* evernote.png in Resources */,
+				4B406AD7186822510071C1D5 /* 123.png in Resources */,
+				4B406AE51868490E0071C1D5 /* Sky.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA829DE184D006C0099E41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA829F2184D006C0099E41C /* main.m in Sources */,
+				4BA829F6184D006C0099E41C /* SrollViewAppDelegate.m in Sources */,
+				4BA82A04184D00FD0099E41C /* SrollViewController.m in Sources */,
+				4B406AE1186836DD0071C1D5 /* LCGridData.m in Sources */,
+				4B406AE2186836DD0071C1D5 /* LCGridElement.m in Sources */,
+				4B406AE3186836DD0071C1D5 /* LCGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BA829EE184D006C0099E41C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA829EF184D006C0099E41C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BA829FD184D006C0099E41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BA829FE184D006C0099E41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BA82A00184D006C0099E41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scrollview/scrollview-Prefix.pch";
+				INFOPLIST_FILE = "scrollview/scrollview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BA82A01184D006C0099E41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scrollview/scrollview-Prefix.pch";
+				INFOPLIST_FILE = "scrollview/scrollview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BA829DD184D006C0099E41C /* Build configuration list for PBXProject "scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA829FD184D006C0099E41C /* Debug */,
+				4BA829FE184D006C0099E41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA829FF184D006C0099E41C /* Build configuration list for PBXNativeTarget "scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA82A00184D006C0099E41C /* Debug */,
+				4BA82A01184D006C0099E41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BA829DA184D006C0099E41C /* Project object */;
+}
