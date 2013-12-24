@@ -8,5 +8,5 @@ gird view for my Christmas
 and if you any question or good suggestion ,please write to my email, thanks!
 
 picture:
-![hori](https://github.com/dudongdaoqi/gridview/blob/master/hori.png)
+![hori](https://raw.github.com/dudongdaoqi/gridview/master/hori.png)
 
