@@ -6,3 +6,6 @@ gird view for my Christmas
 4.it can be used ios5.o or later   
 
 and if you any question or good suggestion ,please write to my email, thanks!
+
+picture:
+ ![image](https://github.com/dudongdaoqi/gridview/blob/master/hori.png)
