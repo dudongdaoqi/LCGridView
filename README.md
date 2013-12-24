@@ -9,3 +9,4 @@ and if you any question or good suggestion ,please write to my email, thanks!
 
 picture:
  ![image text](https://github.com/dudongdaoqi/gridview/blob/master/hori.png)
++![](https://github.com/dudongdaoqi/gridview/blob/master/hori.png)
