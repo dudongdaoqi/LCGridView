@@ -5,7 +5,7 @@ gird view for my Christmas
 3.the girid can have a UIPageControl or not, you decide.     
 4.it can be used ios5.o or later   
 
-and if you any question or good suggestion ,please write to my email, thanks!
+and if you any question or good suggestion ,please write to my email(dudongdaoqi@gmail.com), thanks!
 
 picture: 
 
